@@ -13,8 +13,10 @@
     <div data-role="page" id="home"> <!-- home page -->
  
         <div data-role="header">
+        	<div data-role="controlgroup" data-type="horizontal" style="margin-left:75px;margin-top:5px;" >
 							<a data-rel="back" data-icon="back" data-iconpos="notext"></a>
 							<a href="home.php" data-icon="home" data-theme="b" data-iconpos="notext"></a>
+					</div>
 							<a href="sign_in.php" data-role="button" data-mini="true">Sign In</a>
             <h1>FOURGATE</h1>
         </div><!-- /header -->
