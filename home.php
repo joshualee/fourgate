@@ -13,8 +13,10 @@
     <div data-role="page" id="home"> <!-- home page -->
  
         <div data-role="header">
+        			<div data-role="controlgroup">
 							<a data-rel="back" data-icon="back" data-iconpos="notext"></a>
 							<a href="home.php" data-icon="home" data-theme="b" data-iconpos="notext"></a>
+            	</div>
             <h1>FOURGATE</h1>
         </div><!-- /header -->
     
