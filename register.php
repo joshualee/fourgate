@@ -21,10 +21,25 @@
     
         <div data-role="content">
         		The register page has not yet been implemented.
-            <a href="#view_portal" data-role="button" data-icon="arrow-r" id="home_suggestions_button">View Portal</a>
-            <a href="#hubs_near_me" data-role="button" data-icon="arrow-r" id="home_my_favorites_button">Hubs Near Me</a>
-            <a href="#create_hub" data-role="button" data-icon="arrow-plus">Create Hub</a>
-            <a href="#my_hubs" data-role="button" data-icon="arrow-r">My Hubs</a>
+						<form action="form.php" method="post">
+        			<div data-role="fieldcontain" class="ui-hide-label">
+								<label for="username">Username:</label>
+								<input type="text" name="username" id="username" value="" placeholder="Username"/>
+							</div>
+							<div data-role="fieldcontain" class="ui-hide-label">
+								<label for="password">Password:</label>
+								<input type="password" name="password" id="password" value="" placeholder="Password"/>
+							</div>
+							<div data-role="fieldcontain" class="ui-hide-label">
+								<label for="password2">Password:</label>
+								<input type="password" name="password2" id="password2" value="" placeholder="Retype Password"/>
+							</div>
+							<div data-role="fieldcontain" class="ui-hide-label">
+								<label for="email">Email:</label>
+								<input type="email" name="email" id="email" value="" placeholder="Email"/>
+							</div>
+        			<button type="submit" data-theme="b" name="submit" value="submit-value">Register</button>
+						</form>
         </div><!-- /content -->
     
         <div data-role="footer">
