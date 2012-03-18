@@ -19,7 +19,7 @@
     
         <div data-role="content">	
         	List of HUBS (not yet implemented)
-        	<a href="#map" data-role="buttom"> Switch to Map View </a>
+        	<a href="#map" data-role="button"> Switch to Map View </a>
         </div><!-- /content -->
     
         <div data-role="footer">
