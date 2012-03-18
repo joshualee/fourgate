@@ -13,8 +13,8 @@
     <div data-role="page" id="home"> <!-- home page -->
  
         <div data-role="header">
-            <a data-rel="back" data-icon="back">Back</a>
-						<a href="home.php" data-icon="home" data-theme="b">Home</a>
+            <a data-rel="back" data-icon="back" data-inline="true">Back</a>
+						<a href="home.php" data-icon="home" data-theme="b" data-inline="true">Home</a>
             <h1>FOURGATE Web Application</h1>
         </div><!-- /header -->
     
