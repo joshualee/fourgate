@@ -18,6 +18,11 @@
         </div><!-- /header -->
     
         <div data-role="content">	
+        	<form class="ui-listview-filter ui-bar-c" role="search">
+        		<div class="ui-input-search ui-shadow-inset ui-btn-corner-all ui-btn-shadow ui-icon-searchfield ui-body-c">
+        			<input placeholder="Filter items..." data-type="search" class="ui-input-text ui-body-c">
+        		</div>
+        	</form>
         	List of HUBS (not yet implemented)
         	<a href="#map" data-role="button"> Switch to Map View </a>
         </div><!-- /content -->
@@ -37,7 +42,7 @@
     
         <div data-role="content">	
         	Map of HUBS (not yet implemented)
-        	<a href="#list" data-role="buttom"> Switch to List View </a>
+        	<a href="#list" data-role="button"> Switch to List View </a>
         </div><!-- /content -->
     
         <div data-role="footer">
