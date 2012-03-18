@@ -13,9 +13,11 @@
     <div data-role="page" id="home"> <!-- home page -->
  
         <div data-role="header">
-            <a data-rel="back" data-icon="back" data-inline="true">Back</a>
-						<a href="home.php" data-icon="home" data-theme="b" data-inline="true">Home</a>
-            <h1>FOURGATE Web Application</h1>
+        		<div data-role="controlgroup">
+						<a data-rel="back" data-icon="back" data-type="horizontal">Back</a>
+						<a href="home.php" data-icon="home" data-theme="b" data-type="horizontal">Home</a>
+						</div>
+            <h1>FOURGATE</h1>
         </div><!-- /header -->
     
         <div data-role="content">	
