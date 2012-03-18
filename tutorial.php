@@ -13,12 +13,12 @@
     <div data-role="page" id="home"> <!-- home page -->
  
         <div data-role="header">
-            <a data-rel="back" data-icon="back"></a>
-						<a href="home.php" data-icon="home" data-theme="b"></a>
-            <h1>FOURGATE Web Application</h1>
+        	<a data-rel="back" data-icon="back"></a>
+					<a href="#home" data-icon="home" data-theme="b"></a>
+            <h1>Tutorial</h1>
         </div><!-- /header -->
-    
         <div data-role="content">	
+        	This is our app's tutorial for new users.
             <a href="#view_portal" data-role="button" data-icon="arrow-r" id="home_suggestions_button">View Portal</a>
             <a href="#hubs_near_me" data-role="button" data-icon="arrow-r" id="home_my_favorites_button">Hubs Near Me</a>
             <a href="#create_hub" data-role="button" data-icon="arrow-plus">Create Hub</a>
