@@ -14,7 +14,6 @@
     
         <div data-role="header">
             <h1>View Portal</h1>
-            <a href="back" data-icon=
             <a href="home.php" data-role="button" data-icon="home">Home</a>
         </div><!-- /header -->
     

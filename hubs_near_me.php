@@ -10,19 +10,40 @@
     </head> 
 <body> 
 
-    <div data-role="page" id="hubs_near_me"> <!-- hubs near me -->
+    <div data-role="page" id="list"> <!-- hubs near me -->
     
         <div data-role="header">
-            <h1>Hubs Near Me</h1>
+            <h1>Hubs Near Me (List)</h1>
             <a href="home.php" data-role="button" data-icon="home">Home</a>
         </div><!-- /header -->
     
         <div data-role="content">	
-            </div><!-- /content -->
+        	List of HUBS (not yet implemented)
+        	<a href="#map" data-role="buttom"> Switch to Map View </a>
+        </div><!-- /content -->
     
         <div data-role="footer">
             <h4>JLee, LLuo, ALeigh</h4>
         </div><!-- /footer -->
+    </div> <!-- /hubs near me -->
+    
+    
+    <div data-role="page" id="map"> <!-- hubs near me -->
+    
+        <div data-role="header">
+            <h1>Hubs Near Me (Map)</h1>
+            <a href="home.php" data-role="button" data-icon="home">Home</a>
+        </div><!-- /header -->
+    
+        <div data-role="content">	
+        	Map of HUBS (not yet implemented)
+        	<a href="#list" data-role="buttom"> Switch to List View </a>
+        </div><!-- /content -->
+    
+        <div data-role="footer">
+            <h4>JLee, LLuo, ALeigh</h4>
+        </div><!-- /footer -->
+        
     </div> <!-- /hubs near me -->
     
 </body>
