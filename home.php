@@ -17,7 +17,7 @@
 							<a data-rel="back" data-icon="back" data-iconpos="notext"></a>
 							<a href="home.php" data-icon="home" data-theme="b" data-iconpos="notext"></a>
 					</div>
-							<a href="sign_in.php" data-role="button" data-mini="true">Sign In</a>
+						<!--	<a href="sign_in.php" data-role="button" data-mini="true">Sign In</a> -->
             <h1>FOURGATE</h1>
         </div><!-- /header -->
     
