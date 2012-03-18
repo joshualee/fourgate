@@ -14,8 +14,8 @@
  
         <div data-role="header">
         		<div data-role="controlgroup">
-						<a data-rel="back" data-icon="back" data-type="horizontal">Back</a>
-						<a href="home.php" data-icon="home" data-theme="b" data-type="horizontal">Home</a>
+							<a data-rel="back" data-icon="back" data-iconpos="notext"></a>
+							<a href="home.php" data-icon="home" data-theme="b" data-iconpos="notext"></a>
 						</div>
             <h1>FOURGATE</h1>
         </div><!-- /header -->
