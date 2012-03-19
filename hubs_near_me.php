@@ -19,7 +19,7 @@
     
         <div data-role="content">	
         	<form class="ui-listview-filter ui-bar-c" role="search">
-        			<input placeholder="Filter items..." data-type="search" class="ui-input-text ui-body-c">
+        			<input placeholder="Filter HUBS" data-type="search" class="ui-input-text ui-body-c">
         	</form>
         	List of HUBS (not yet implemented)
         	<a href="#map" data-role="button"> Switch to Map View </a>

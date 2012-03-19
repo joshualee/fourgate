@@ -22,14 +22,8 @@
         <div data-role="content">
         	The login feature has not yet been implemented.
         		<form action="form.php" method="post">
-        			<div data-role="fieldcontain" class="ui-hide-label">
-								<label for="username">Username:</label>
 								<input type="text" name="username" id="username" value="" placeholder="Username"/>
-							</div>
-							<div data-role="fieldcontain" class="ui-hide-label">
-								<label for="username">Password:</label>
 								<input type="password" name="password" id="password" value="" placeholder="Password"/>
-							</div>
         			<button type="submit" name="submit" value="submit-value">Login</button>
         		</form>
         		<a href="register.php" data-theme="b" data-role="button">Register</a>
